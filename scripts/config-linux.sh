@@ -119,13 +119,13 @@ then
 fi
 
 # remove all install files
-rm registration.json
-rm secrets
-if [[ $(grep -E 'CentOS|Red Hat' /etc/os-release 2>/dev/null) ]]
-then
-  rm tableau-installer.rpm
-else
-  rm tableau-installer.deb
-fi
-rm automated-installer.sh
-rm config.json
+#rm registration.json
+#rm secrets
+#if [[ $(grep -E 'CentOS|Red Hat' /etc/os-release 2>/dev/null) ]]
+#then
+#  rm tableau-installer.rpm
+#else
+#  rm tableau-installer.deb
+#fi
+#rm automated-installer.sh
+#rm config.json
